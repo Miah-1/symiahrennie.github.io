@@ -132,3 +132,42 @@ main section h2::after {
   margin-top: 30px;       /* Adds space above the button */
 }
 
+main section {
+  margin-bottom: 3rem;
+}
+
+main h2 {
+  margin-bottom: 1rem;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.team-member img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f5f5f5;
+  font-size: 0.9rem;
+}
