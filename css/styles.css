@@ -119,15 +119,16 @@ main section h2::after {
 }
 
 .service ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: none;  /* Remove default bullets */
+  padding-left: 0;        /* Remove default padding */
 }
 
 .service li {
-  margin-bottom: 1em; /* Adjust the space between items */
+  margin-bottom: 20px;    /* Add spacing between each list item */
+  line-height: 1.6;       /* Adjust line height for better readability */
 }
 
 .service button {
-  margin-top: 20px; /* Adds space above the button */
+  margin-top: 30px;       /* Adds space above the button */
 }
 
