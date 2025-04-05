@@ -117,3 +117,8 @@ main section h2::after {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
 }
+
+/* Add to styles.css */
+.btn-book-now {
+  margin-bottom: 20px; /* Adjust this value as needed */
+}
