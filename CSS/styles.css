@@ -1,3 +1,4 @@
+
 body {
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -7,7 +8,7 @@ body {
     padding: 0;
 }
 
-
+/* Header */
 header {
     background-color: #D4AF37;
     min-height: 60px; /* Adjust this value if needed */
@@ -20,7 +21,7 @@ header {
     margin: 0;
 }
 
-
+/* Buttons */
 .button {
     font-weight: bold;
     background-color: #D4AF37;
@@ -51,6 +52,14 @@ header {
     border-color: #B8860B;
 }
 
+/* Footer */
+footer {
+    background-color: transparent; /* Removes the yellow */
+    padding: 0;
+    height: 0;
+    position: relative; /* Adjusted for better positioning */
+}
+
 footer {
     background-color: #D4AF37;
     color: white;
@@ -60,71 +69,40 @@ footer {
     bottom: 0;
 }
 
+/* Small Image Styling */
 .small-image {
     width: 200px;
     height: auto;
     border-radius: 8px; /* Optional: adds a soft rounded edge */
     object-fit: cover;  /* Optional: makes image look cleaner if dimensions vary */
-  }
-  
-  main section {
+}
+
+/* Main Section Styling */
+main section {
     margin-bottom: 40px; /* Adds space between each section */
     padding: 20px;
-  }
-  
-  main section h2 {
+}
+
+main section h2 {
     margin-bottom: 10px; /* Space below headings */
     font-size: 1.8em;
-  }
-  
-  main section p {
+}
+
+main section p {
     line-height: 1.6; /* Improves paragraph readability */
-  }
-  
-  main section h2 {
+}
+
+main section h2 {
     border: none;
     border-bottom: none;
     box-shadow: none;
-  }
-  main section h2::after {
-    content: none;
-  }
-  
-  .service-box img {
-    width: 100%;
-    max-width: 300px;       /* Keeps the image at a nice max size */
-    height: 200px;           /* Gives a uniform height */
-    object-fit: cover;       /* Ensures images don’t stretch or skew */
-    border-radius: 12px;     /* Smooth rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    margin-bottom: 15px;
-  }
-  
-  .service-box img {
-    margin-top: 20px;  /* Adds space above the image */
-    width: 100%;
-    max-width: 300px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
-  }
-  
-  footer {
-    background-color: transparent; /* Removes the yellow */
-    padding: 0;
-    height: 0;
 }
 
+main section h2::after {
+    content: none;
+}
+
+/* Service Box Styling */
 .service-box img {
     width: 100%;
-    max-width: 250px;  /* Previously 300px or 400px */
-    height: 180px;     /* Previously 200px or 250px */
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
+    max-width: 250
