@@ -106,3 +106,22 @@ main section h2::after {
 .service-box img {
     width: 100%;
     max-width: 250
+
+    .team-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.team-member {
+  margin-bottom: 40px;
+}
+
+.team-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #D4AF37;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
