@@ -1,54 +1,79 @@
-.services-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  padding: 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Cutting Edge</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
 
-.service-box {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  text-align: left;
-}
+  <header>
+    <nav>
+      <img src="Images/logo-main.png" alt="Cutting Edge Logo" style="height: 50px;" />
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="form.html">Sign Up</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+      </ul>
+    </nav>
+  </header>
 
-.service-box img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
+  <main>
+    <section class="services-header">
+      <h1>Our Services</h1>
+      <p>Premium hair and skincare services designed just for you.</p>
+    </section>
 
-.service-box h3 {
-  color: #D4AF37;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-}
+    <section class="services-grid">
+      <!-- Haircare -->
+      <div class="service-box">
+        <img src="Images/haircare.jpg" alt="Haircare Services" />
+        <h3>Haircare</h3>
+        <p>Our professional stylists offer expert haircuts, treatments, and styling for all hair types. Whether you're looking for a simple trim, a bold new look, or deep conditioning treatments, we’ve got you covered.</p>
+        <a href="form.html" class="button">Book Now</a>
+      </div>
 
-.service-box p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
+      <!-- Skincare -->
+      <div class="service-box">
+        <img src="Images/skincare.jpg" alt="Skincare Services" />
+        <h3>Skincare</h3>
+        <p>Refresh and rejuvenate your skin with our specialized facials, exfoliation, and glow-boosting treatments. We use premium skincare products tailored to your unique skin type for the best results.</p>
 
-.service-box ul {
-  padding-left: 1.2rem;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-}
+        <p>Our services include a range of treatments to enhance your skin's natural radiance and improve texture:</p>
+        <ul>
+          <li><strong>Signature Facials:</strong> Customized facials are designed to target specific skin concerns such as dryness, acne, or uneven skin tone. Each facial is personalized to meet your skin’s needs.</li>
+          <li><strong>Exfoliation Treatments:</strong> Exfoliation services will remove dead skin cells, improve skin texture, and boost circulation. These treatments leave your skin feeling smooth and refreshed.</li>
+          <li><strong>Glow-Boosting Facials:</strong> These are targeted treatments to brighten and even out skin tone, giving your skin a luminous glow. This is perfect for pre-event prep or a quick service.</li>
+          <li><strong>Anti-Aging Treatments:</strong> These advanced treatments focus on reducing fine lines and wrinkles, promoting collagen production, and rejuvenating your skin.</li>
+          <li><strong>Hydrating Facials:</strong> Aimed at restoring moisture and balance to dehydrated skin. These facials deeply nourish and hydrate to leave skin feeling plump and glowing.</li>
+          <li><strong>Acne Treatment Facials:</strong> These treatments combat acne and prevent future breakouts. It includes deep cleansing, extractions, and calming masks to help reduce inflammation and promote clear skin.</li>
+          <li><strong>Brightening and Pigmentation Treatments:</strong> This is designed to lighten dark spots and uneven skin tone, these treatments help show brighter, more radiant skin.</li>
+        </ul>
+        <a href="form.html" class="button">Book Now</a>
+      </div>
 
-.service-box ul li {
-  margin-bottom: 0.75rem;
-  line-height: 1.5;
-}
+      <!-- Styling & Makeup -->
+      <div class="service-box">
+        <img src="Images/styling.jpg" alt="Styling & Makeup" />
+        <h3>Styling & Makeup</h3>
+        <p>Our makeup artists specialize in creating looks that enhance your natural beauty for any occasion. Whether you're booking for everyday glam or a bold, stunning look for a special event, we use only the best quality products to ensure you look and feel your best. From bridal makeup to event styling, we are committed to bringing your vision to life.</p>
 
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background-color: #f5f5f5;
-  font-size: 0.9rem;
-}
+        <p>We cater to a wide range of events including weddings, birthdays, graduations, photoshoots, and group bookings. Whether you're looking for a classic, timeless bridal look or something a bit more dramatic for a photoshoot, we've got you covered. Our team is skilled at creating custom looks that suit your unique features and the vibe of your event.</p>
+
+        <p>Additionally, we offer on-location services for clients who prefer the convenience of having their makeup done at home, in a hotel, or at any venue. Travel bookings can be arranged for both individual and group sessions, ensuring that everyone is camera-ready and confident for the day.</p>
+
+        <a href="form.html" class="button">Get a Quote</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cutting Edge. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
